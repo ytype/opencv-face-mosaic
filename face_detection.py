@@ -1,4 +1,5 @@
 import cv2
+import blur
 
 # Load the cascade
 face_cascade = cv2.CascadeClassifier('lib/haarcascade_frontalface_default.xml')
